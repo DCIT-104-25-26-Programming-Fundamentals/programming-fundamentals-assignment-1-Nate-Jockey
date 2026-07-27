@@ -72,3 +72,39 @@ if __name__ == "__main__":
     else:
         print("Score:", score)
         print("Grade:", grade)
+
+
+    score = 73
+
+    grade = get_grade(score)
+    
+    if grade is None:
+        print("Error: Score must be between 0 and 100.")
+    else:
+        print("Score:", score)
+        print("Grade:", grade)
+
+
+    score = 45
+
+    grade = get_grade(score)
+    
+    if grade is None:
+        print("Error: Score must be between 0 and 100.")
+    else:
+        print("Score:", score)
+        print("Grade:", grade)
+
+
+    score = 110
+
+    grade = get_grade(score)
+    
+    if grade is None:
+        print("Error: Score must be between 0 and 100.")
+    else:
+        print("Score:", score)
+        print("Grade:", grade)
+        
+        
+        
