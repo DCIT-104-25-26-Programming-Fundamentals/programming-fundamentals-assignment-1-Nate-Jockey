@@ -62,7 +62,7 @@ def get_grade(score):
         return "F"
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     score = 85
 
     grade = get_grade(score)
