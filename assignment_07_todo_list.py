@@ -99,7 +99,7 @@ def delete_task(tasks):
         print("Your to-do list is empty.")
         return
 
-    view_tasks(tasks):
+    view_tasks(tasks)
 
     task_number = int(input("Enter task number to delete: "))
 
