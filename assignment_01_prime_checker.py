@@ -47,7 +47,7 @@ def is_prime(number):
 
 
 if __name__ == "__main__":
-    num = 2
+    num = 7
 
     if is_prime(num):
         print(num, "is a prime number")
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         print(num, "is NOT a prime number")
 
 
-    num = 3
+    num = 10
 
     if is_prime(num):
         print(num, "is a prime number")
@@ -63,23 +63,7 @@ if __name__ == "__main__":
         print(num, "is NOT a prime number")
 
 
-    num = 8
-
-    if is_prime(num):
-        print(num, "is a prime number")
-    else:
-        print(num, "is NOT a prime number")
-
-
-    num = 15
-
-    if is_prime(num):
-        print(num, "is a prime number")
-    else:
-        print(num, "is NOT a prime number")
-
-
-    num = 17
+    num = 1
 
     if is_prime(num):
         print(num, "is a prime number")
